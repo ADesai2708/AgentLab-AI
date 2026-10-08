@@ -1,0 +1,35 @@
+# Virtual environment
+.venv/
+venv/
+
+# Environment variables / secrets
+.env
+.env.*
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Test/cache files
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Generated data
+data/cache/
+data/output/
+
+# SQLite databases / caches
+*.sqlite3
+*.sqlite
